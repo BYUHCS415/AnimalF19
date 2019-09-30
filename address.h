@@ -1,7 +1,10 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
+#ifndef ADDRESS_H
+#define ADDRESS_H
+
+using namespace std; 
 
 class Address {
 public:
@@ -11,3 +14,5 @@ public:
 private:
     string address;
 };
+
+#endif

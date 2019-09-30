@@ -2,6 +2,9 @@
 #include <string>
 #include "address.h"
 
+#ifndef ANIMAL_H
+#define ANIMAL_H
+
 using namespace std;
 
 class Animal {
@@ -16,3 +19,5 @@ private:
     Address *add;
     
 };
+
+#endif
